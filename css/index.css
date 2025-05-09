@@ -1,0 +1,306 @@
+@font-face {
+    font-family: lobster;
+    src: url(../fonts/lobster.regular.ttf);
+}
+@font-face {
+    font-family: sf-pro;
+    src: url(../fonts/SFPRODISPLAYBOLD.OTF);
+}
+@font-face {
+    font-family: sf-pro-light;
+    src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
+}
+:root{
+    --blue-color:#E7FAFE;
+    --blue-hover-color:#d8f8ff;
+}
+*{
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box !important;
+}
+a{
+    text-decoration: none !important;
+    color: #000;
+}
+ul li{
+    list-style: none;
+}
+.container{
+    width: 1280px !important;
+}
+.logo-control{
+    font-family: lobster;
+}
+.nav-link{
+    font-weight: 500 !important;
+}
+/* hero */
+.section-one{
+    padding-bottom: 80px;
+}
+.hero-control {
+    background-color: var(--blue-color);
+    padding: 50px;
+    width: 620px;
+    border-top-left-radius: 3.5rem;
+    border-bottom-left-radius: 3.5rem;
+}
+.hero-badge-control{
+    width: 156px;
+}
+.h1-control{
+    font-size: 64px;
+    font-weight: 600;
+    width: 520px;
+}
+.hero-bottom-badge{
+    background-color: #0000000D;
+    margin-top: 30px;
+}
+.hero-bottom-badge span{
+    color: #00000099;
+}
+.hero-bottom{
+    margin-top: 100px;
+}
+/* section-two */
+.section-two{
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+.two-top-control {
+    margin-bottom: 130px;
+}
+.two-top-control h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+.two-top-control button{
+    font-size: 16px;
+    padding: 20px 27px;
+    border-radius: 16px;
+    background-color: var(--blue-color);
+    border: none;
+}
+.two-top-control button:hover{
+    background-color: var(--blue-hover-color);
+}
+.two-cnt-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 202px;
+    background: rgb(95, 130, 70);
+    background: linear-gradient(270deg,rgba(95,130,70,0) 0%, rgba(112,130,70,0.11) 100%);
+    background: -webkit-linear-gradient(270deg,rgba(95,130,70,0) 0%, rgba(112,130,70,0.11) 100%);
+    background: -moz-linear-gradient(270deg,rgba(95,130,70,0) 0%, rgba(112,130,70,0.11) 100%);
+}
+.two-cnt-cont p {
+    margin: 100px 0 30px 0px !important;
+}
+.two-img-cnt-btm {
+    position: absolute;
+    top: 0;
+    left: 28%;
+    transform: translateY(-40%);
+}
+/* section-three */
+.section-three{
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+.section-three h2{
+    font-size: 3rem;
+}
+.three-top-p-cnt{
+    font-size: 16px;
+    font-weight: 400;
+    color: #00000099;
+    width: 700px;
+    margin: 0 auto;
+}
+.three-cards{
+    margin-top: 96px;
+}
+.three-card{
+    width: 400px;
+    margin-top: 40px;
+    border-radius: 30px;
+    background: rgba(231,249,253,0);
+    background: linear-gradient(270deg,rgba(231,249,253,0) 0%, #e7f9fd 80%);
+    background: -webkit-linear-gradient(270deg,rgba(231,249,253,0) 0%, #e7f9fd 80%);
+    background: -moz-linear-gradient(270deg,rgba(231,249,253,0) 0%, #e7f9fd 80%);
+}
+.fa-heart {
+    color: #DBE2E5;
+    font-size: 24px;
+    cursor: pointer;
+}
+.fa-heart:hover{
+    color: #ff6363;
+}
+.three-card2{
+    width: 400px;
+    margin-top: 40px;
+    background-image: url(../img/three-9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.three-card2 h6{
+    width: 172px;
+    font-family: lobster;
+    margin: 0 auto;
+}
+.three-card2 p{
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    font-weight: 500;
+    opacity: .6;
+}
+/* sectionj-four */
+.section-four{
+    padding: 70px 0 160px 0;
+}
+.section-four h3{
+    font-size: 48px;
+    font-weight: 600;
+}
+.section-four p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #00000099;
+    margin-bottom: 72px;
+}
+.section-four button{
+    padding: 22px 53px;
+}
+/* section-five */
+.section-five{
+    padding: 80px 0;
+    background: rgba(231,249,253,0);
+    background: linear-gradient(270deg,rgba(231,249,253,0) 0%, #e7f9fd 80%);
+    background: -webkit-linear-gradient(270deg,rgba(231,249,253,0) 0%, #e7f9fd 80%);
+    background: -moz-linear-gradient(270deg,rgba(231,249,253,0) 0%, #e7f9fd 80%);
+}
+.section-five h4{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.five-main-p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center;
+    width: 840px;
+    margin: 0 auto;
+}
+.five-card-control{
+    width: 290px;
+    margin-top: 80px;
+}
+.card-logo{
+    font-family: lobster;
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 4px;
+}
+.five-card-control h6{
+    font-size: 10.05px;
+    font-weight: 600;
+    font-family: sf-pro;
+    margin-bottom: 0;
+    color: #262626;
+}
+.five-card-control p{
+    font-size: 8.51px;
+    font-weight: 400;
+    font-family: sf-pro-light;
+    margin-bottom: 0;
+    color: #262626;
+    letter-spacing: 0.05px;
+}
+.fa-certificate{
+    color: #3897F0;
+    margin-left: 2.31px;
+}
+.five-check-control {
+    position: absolute;
+    top: 3.8px;
+    right: 2.8px;
+    color: #fff;
+    font-size: 5px;
+}
+/* section-six */
+.section-six{
+    padding: 160px 0;
+}
+.six-top h4 {
+    font-size: 48px;
+    font-weight: 600;
+    width: 550px;
+    line-height: 100%;
+}
+.six-top p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 620px;
+    line-height: 28px;
+    color: #00000099;
+}
+.six-card{
+    width: 290px;
+    margin-bottom: 40px;
+}
+/* section-seven */
+.section-seven .container{
+    padding: 80px 0;
+    background-image: url(../img/seven-main.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-seven h5{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.section-seven p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 28px;
+    width: 620px;
+    margin: 0 auto 64px auto;
+}
+.section-seven input {
+    width: 480px;
+    padding: 31px 174px 31px 32px;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.section-seven button{
+    width: 160px;
+    height: 60px;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+}
+/* footer */
+footer{
+    padding: 160px 0 48px 0;
+}
