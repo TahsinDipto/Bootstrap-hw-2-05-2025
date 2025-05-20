@@ -304,3 +304,38 @@ ul li{
 footer{
     padding: 160px 0 48px 0;
 }
+/* recipies */
+.checkbox-controller{
+    width: 24px; 
+    height: 24px; 
+    padding: 0; 
+    border-radius: 50% !important; 
+    border: 2px solid #DBE2E5 !important;
+}
+.checkbox-controller:focus{
+    box-shadow: none !important;
+}
+.checkbox-controller:checked{
+    background-color: #000!important;
+}
+
+
+/* input[type="checkbox"] {
+    accent-color: #4caf50; 
+}
+*/
+
+
+/* contact */
+.textarea-controller{
+    height: 200px !important;
+    border-radius: 16px;
+    border: 1px solid #0000001A; 
+    padding: 20px; 
+    width: 840px; 
+    height: 200px;
+}
+/* blog */
+.blog-link:hover{
+    text-decoration: underline !important;
+}
