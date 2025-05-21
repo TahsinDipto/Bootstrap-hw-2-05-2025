@@ -339,3 +339,10 @@ footer{
 .blog-link:hover{
     text-decoration: underline !important;
 }
+
+.collapse-control-blog{
+    width: 40px !important;
+    height: 40px !important;
+    background-color: rgb(255, 255, 255);
+    border: 50px solid rgb(247, 0, 255) !important;
+}
