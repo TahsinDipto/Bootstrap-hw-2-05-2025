@@ -346,3 +346,32 @@ footer{
     background-color: rgb(255, 255, 255);
     border: 50px solid rgb(247, 0, 255) !important;
 }
+
+.carousel-indicators-control{
+    position: absolute;
+    bottom: -114px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* problem */
+
+.carousel-indicators-control [data-bs-target] {
+    width: 64px;
+    height: 64px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 16px;
+    color: #000000;
+    background-color: #fff;
+}
+
+
+
+/* .carousel-indicators-control button {
+    color: #fff;
+    background-color: #000;
+} */
